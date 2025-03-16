@@ -1,0 +1,2 @@
+inp,output,timestamp
+.gradio\flagged\inp\a0c2dacbcdad9ff25c49\Image.jpg,"{""label"": ""African elephant"", ""confidences"": [{""label"": ""African elephant"", ""confidence"": 0.7856326699256897}, {""label"": ""tusker"", ""confidence"": 0.14757265150547028}, {""label"": ""Indian elephant"", ""confidence"": 0.06264329701662064}]}",2025-03-16 17:06:18.825089
