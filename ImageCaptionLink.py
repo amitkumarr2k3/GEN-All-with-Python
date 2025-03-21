@@ -6,7 +6,7 @@ model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-capt
 def generate_caption(image):
     # Now directly using the PIL Image object
     inputs = processor(images=image, return_tensors="pt")
-    outputs = model.generate(**inputs)
+    outputs = model.generate(**inputs, max_length=50)
     caption = processor.decode(outputs[0], skip_special_tokens=True)
     return caption
 def caption_image(image):
