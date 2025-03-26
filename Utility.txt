@@ -1,3 +1,5 @@
 function prompt {
     "$env:USERNAME >"
 }
+
+$env:FLASK_APP = "app_server_chatbot.py"
